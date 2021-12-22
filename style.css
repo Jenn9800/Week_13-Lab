@@ -1,0 +1,45 @@
+body{
+	background-color: #1cc0d2;
+	font-size: normal;
+	background-size: cover;
+}
+h1 {
+   font-size: 35px;
+   margin-top: 10px;
+}
+
+form{
+	width: 420px;
+	height: 440px;
+ 	margin: 0 auto;
+	margin-top: 50px;
+	border: 1px solid black;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	background-color:#f5f5f5;
+ }
+
+select, input {
+	margin-bottom: 20px
+}
+select {
+  background-color: #e16806;
+  color: white;
+  padding: 3px;
+    }
+ button{
+ color:#fff;
+ background-color:#17a2b8;
+ border-color:#17a2b8;
+ font-size: 18px ;
+ border-radius: 9px;
+ padding: 12px 19px;
+ }
+ button:hover{
+color:#fff;
+background-color:#138496;
+border-color:#117a8b
+ }
+
+}
