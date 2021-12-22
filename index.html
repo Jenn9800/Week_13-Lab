@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+ 		<title>JS Calculator</title>
+
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+	<body>
+		<div class="container">
+			<form >
+				
+				<h1><center>JS Calculator</center></h1>
+				<label for=""><center>Number 1:</center></label>
+
+				<input class="form-control" id="number1" type="number">
+				<label for=""><center>Number 2:</center></label>
+				 <input class="form-control" id="number2" type="number">
+
+				<p class="mb-2"><center>Operate Way?</center></p>
+				<select id="operator"> 
+					<option value="add">Add(+)</option>
+					<option value="minus">Minus(-)</option>
+					<option value="multiply">Multiply(*)</option>
+					<option value="divide">Divide(/)</option>
+			 	</select>
+			 	<button class="button" onclick="calc()" type="button">Calculate</button>
+ 				 <div   id="result">
+					<p><center>Result: <span id='final-result'></span></center></p>
+				</div>
+			</form>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
